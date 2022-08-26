@@ -1,0 +1,609 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 93px;
+    height: 27px;
+}
+
+.travelo {
+    font-size: 18px;
+    color: #4468E2;
+    font-family: 'Encode+Sans+Semi+Condensed', sans-serif;
+    font-weight: 500;
+}
+
+.list {
+    width: 599px;
+    height: 22px;
+
+}
+
+.list1 {
+    font-size: 22px;
+    color: #1C4961;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blue {
+    width: 104px;
+    height: 34px;
+    background-color: #4468E2;
+    border-radius: 19px;
+    color: #FFFFFF;
+    padding: 8px 19px 7px 19px;
+    font-size: 19px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 27px;
+
+}
+
+.img {
+    background-image: url('./lalo-hernandez-Amo081zdJsI-unsplash.png');
+    background-size: cover;
+    width: 1920px;
+    height: 608px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 21px;
+
+
+
+}
+
+.cover {
+    width: 1920px;
+    height: 608px;
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+
+
+}
+
+.title {
+    font-size: 50px;
+    color: #FFFFFF;
+    font-family: 'Encode+Sans+Semi+Condensed', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    margin-top: -200px;
+
+
+}
+
+.txt {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 300;
+    position: absolute;
+    margin-top: -20px;
+
+}
+
+.check {
+    width: 876px;
+    height: 89px;
+    background-color: #FFFFFF;
+    position: absolute;
+    border-radius: 10px;
+
+    /* filter: blur(5px); */
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 300px;
+
+}
+
+.wywtg {
+    font-size: 20px;
+
+}
+
+.one {
+    width: 185px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.two {
+    width: 80px;
+    height: 44px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+.three {
+    width: 90px;
+    height: 44px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+.bluebox {
+    width: 187px;
+    height: 63px;
+    background-color: #4468E2;
+    font-size: 21px;
+    color: #FFFFFF;
+    padding: 22px 33px 20px 35px;
+    border-radius: 10px;
+
+
+}
+
+.input1 {
+    margin-top: 10px;
+}
+
+.informatio {
+    width: 1920px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 178px;
+
+
+}
+
+.infobox {
+    width: 369px;
+    height: 293.4px;
+    box-shadow: 5px 10px 18px lightgray;
+    border-radius: 10px;
+
+
+
+}
+
+.photo {
+    width: 103px;
+    height: 97px;
+    background-color: #EBF0FE;
+    border-radius: 12px;
+
+    margin-left: 26px;
+    padding: 14px 25px 15px 24.2px;
+    margin-top: 29px;
+
+
+}
+
+.bestprice {
+    font-size: 24px;
+    margin-top: 19px;
+    margin-left: 26px;
+}
+
+.info1 {
+    font-size: 20px;
+    margin-top: 23px;
+    margin-left: 26px;
+
+}
+
+.destination {
+    width: 1920px;
+
+    background-color: #F1FAFF;
+    margin-top: 178.6px;
+    display: inline-block;
+
+
+
+
+}
+
+
+
+
+.title2 {
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 717.1px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+}
+
+.listdiv {
+    width: 1201.5px;
+    /* height: 40.5px; */
+    list-style-type: none;
+    display: flex;
+
+    justify-content: space-around;
+    margin-left: 350px;
+    margin-top: 88px;
+
+
+}
+
+.list2 {
+    font-size: 26px;
+    color: #163235;
+}
+
+.line {
+    width: 1100px;
+    border: 2px solid #A7A7A7;
+    margin-left: 400px;
+    animation-name: line;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes line {
+    0% {
+        margin-left: 0%;
+    }
+
+
+
+    75% {
+        margin-left: 42.5%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+.list2:hover {
+
+    text-decoration: 4px solid underline black;
+}
+
+.places {
+    width: 1920px;
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 64.5px;
+
+
+}
+
+
+.name {
+    font-size: 38px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: 23px;
+
+}
+
+.text {
+    font-size: 26px;
+    margin-top: 15px;
+}
+
+.pt1 {
+    margin-right: 14px;
+    margin-top: 18px;
+
+}
+
+.price1 {
+    font-size: 31px;
+    color: #163235;
+    margin-left: 309px;
+}
+
+.kms {
+    font-size: 22px;
+    color: #163235;
+    margin-top: 17px;
+
+}
+
+.approx {
+    font-size: 22px;
+    color: #163235;
+    margin-left: 400px;
+    margin-top: -30px;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    width: 570px;
+    justify-content: space-between;
+    margin-top: 17px;
+
+}
+
+.singapore1 {
+    width: 590px;
+    height: 600px;
+
+}
+
+.places2 {
+    width: 1920px;
+
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 201px;
+
+}
+
+.newzealand {
+    width: 590px;
+    height: 600px;
+
+}
+
+.blogs {
+    width: 1786px;
+
+    margin-top: 184.5px;
+}
+
+.blogtitle {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-left: 900px;
+}
+
+.img2 {
+    background-image: url(./NoPath.png);
+    width: 965px;
+    height: 587px;
+    border-radius: 15px;
+    margin-top: 74px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+
+
+}
+
+.cover2 {
+    width: 960px;
+    height: 584px;
+    border-radius: 15px;
+    background-size: cover;
+
+
+    position: absolute;
+
+
+
+}
+
+.txt2 {
+    font-size: 50px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    position: relative;
+    padding: 209px 247px 206px 220px;
+
+}
+
+.img3 {
+    background-image: url(./eva-darron-oCdVtGFeDC0-unsplash.png);
+    width: 785px;
+    height: 277px;
+    background-size: cover;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.cover3 {
+    width: 750px;
+    height: 269px;
+    border-radius: 15px;
+    background-size: cover;
+
+    margin-left: 10px;
+    position: absolute;
+
+}
+
+.txt3 {
+    font-size: 50px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    position: relative;
+    padding: 99px 209px 96px 210px;
+
+
+}
+
+.img4 {
+    background-image: url(./ibrahim-rifath-Y6tBl0pTe-g-unsplash.png);
+    width: 785px;
+    height: 277px;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.cover4 {
+    width: 760px;
+    height: 270px;
+    border-radius: 15px;
+    background-size: cover;
+
+    margin-left: 10px;
+    position: absolute;
+
+}
+
+.txt4 {
+    font-size: 50px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    position: relative;
+    padding: 99px 146px 96px 147px;
+}
+
+.photos {
+
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+
+
+
+}
+
+.divpt2 {
+
+    margin-top: 72px;
+}
+
+.customers {
+    width: 1914px;
+    height: 518px;
+}
+
+.titlecistomers {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-left: 800px;
+    padding-right: 300px;
+    padding-top: 184px;
+
+
+}
+
+.person1 {
+    width: 818px;
+    height: 417px;
+    margin-top: 61px;
+    border-radius: 18px;
+    box-shadow: 5px 10px 18px lightgray;
+
+}
+
+.icon1 {
+    margin-top: 70.6px;
+    margin-left: 23.5px;
+}
+
+.text1 {
+    font-size: 26px;
+    color: #000000;
+    margin-left: 100px;
+    margin-top: -60px;
+
+}
+
+.photo0 {
+    margin-left: 100px;
+    margin-top: 31.3px;
+}
+
+.namecust {
+    font-size: 28px;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+.profcust {
+    font-size: 28px;
+    color: #848484;
+    margin-left: 200px;
+}
+
+.customers2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gray {
+    width: 1920px;
+    height: 178px;
+    background-color: #E1E8F8;
+    border-radius: 18px;
+    margin-top: 191px;
+    margin-bottom: 115px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    width: 500px;
+    height: 24px;
+    font-size: 26px;
+    color: #000000;
+    /* padding-top: 80px;
+    margin-left: 41px; */
+
+}
+
+.lt1 {
+    list-style-type: none;
+    font-size: 24px;
+    width: 602px;
+    height: 24px;
+
+
+
+
+}
+
+.foricons {
+    width: 186.55px;
+    height: 45.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forlist0 {
+    width: 602px;
+    height: 24px;
+    display: flex;
+}
